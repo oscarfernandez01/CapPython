@@ -14,3 +14,8 @@ def ejemplo():
     return
 
 ejemplo()
+
+for a in range(10):
+    print(2)
+else:
+    pass

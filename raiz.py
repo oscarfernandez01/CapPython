@@ -22,8 +22,16 @@ while True:
         in_usuario = input("Introduce el nombre")
         list_usuarios.append(objeto_usuario.mostrar_nombre(in_nombre=in_usuario))
         print(list_usuarios)
+        
+
     elif int(opciones_menu) == 2: 
         print("Eliminar Usuarios")
+        print(list_usuarios)
+        try:
+            nombre = input('quien eliminas ')
+            list_usuarios.remove(nombre)
+        except Exception as usuario_no_encontrado:
+            print("Ese usuario no se encuentro")
 
     elif int(opciones_menu) == 3:
         print("Actualizar Usuarios")
@@ -31,10 +39,12 @@ while True:
     else:
         print("Gracias")
 
-
+"""
     inp = '1'
     match inp:
         case '1':
             print('Elegiste la opción 1')
         case '2':
-            print('Elegiste la opción 2')
+            print('Elegiste la opción 2')"""
+
+    
