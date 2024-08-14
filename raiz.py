@@ -32,9 +32,9 @@ while True:
         print("Gracias")
 
 
-"""inp = '1'
-match inp:
-    case '1':
-        print('Elegiste la opción 1')
-    case '2':
-        print('Elegiste la opción 2')"""
+    inp = '1'
+    match inp:
+        case '1':
+            print('Elegiste la opción 1')
+        case '2':
+            print('Elegiste la opción 2')
